@@ -1,5 +1,5 @@
 [build]
-  command = "yarn prisma:generate && yarn dev"
+  command = "yarn prisma:generate && yarn build"
   publish = "dist"  
 
 [functions]
