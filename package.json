@@ -2,8 +2,9 @@
   "name": "vef2-2025-v3-unnid-i-time",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "test": "jest"
+  "dev": "tsx watch src/index.ts",
+  "prisma:generate": "prisma generate",
+  "postinstall": "prisma generate"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.8",
